@@ -1,0 +1,11 @@
+your_profile_name:
+  target: dev
+  outputs:
+    dev:
+      type: fabric
+      driver: 'ODBC Driver 18 for SQL Server' # (The ODBC Driver installed on your system)
+      server: akvrvmas2c4uhgg6sauqhzjzea-n4ww3rltqhwebmhltwb4edzhni.datawarehouse.pbidedicated.windows.net
+      port: 1433
+      database: WAREHOUSE
+      schema: cargowise_dk_wrld
+      authentication: CLI
